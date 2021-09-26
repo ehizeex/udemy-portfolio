@@ -1,0 +1,5 @@
+.loading-bar div {
+  background: var(--loader-color) !important;
+  box-shadow: var(--loader-color) 0px 0px 10px, var(--loader-color) 0px 0px 10px !important;
+  color: var(--loader-color) !important;
+}

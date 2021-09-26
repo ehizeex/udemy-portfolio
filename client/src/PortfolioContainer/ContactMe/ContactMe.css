@@ -1,0 +1,162 @@
+.main-container {
+  min-height: 100vh;
+  /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
+
+  margin: 100px 0 -450px 0;
+}
+
+.central-form {
+  max-width: 1100px;
+  padding: 10px;
+  display: flex;
+  box-shadow: 0 0px 20px -2px #1f2235;
+  border-radius: 12px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1f2235;
+}
+
+.central-form h2 {
+  color: #fff;
+  font-family: "Poppins Bold";
+  letter-spacing: 0.2rem;
+  margin-bottom: 20px;
+}
+
+.back-form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.back-form .img-back {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.img-back h4 {
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.back-form .img-back img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.central-form form {
+  width: auto;
+  box-shadow: 0 0 2px 1px white;
+  display: flex;
+  color: #111;
+  padding: 15px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -52px;
+  opacity: 0.9;
+  background-color: white;
+  box-shadow: 0 0px 20px -2px #1f2235;
+  border-radius: 12px;
+}
+
+form p {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ff5823;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins Bold";
+}
+
+form label {
+  margin-bottom: 5px;
+  color: #111;
+  letter-spacing: 0.2rem;
+}
+
+form input,
+textarea {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+textarea:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+form input:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 5px;
+  outline: none;
+  width: 900px;
+  color: rgb(230, 227, 227);
+  border: 2px solid #ff5823;
+  font-size: 12px;
+  border-radius: 19px;
+  background-color: #1f2235;
+  font-size: 18px;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+}
+
+form button:hover {
+  background-color: #1f2235;
+  transition: all ease 1s;
+  border: 2px solid #1f2235;
+}
+
+button .load {
+  width: 100%;
+}
+
+button .load img {
+  width: 60px;
+  color: green;
+}
+.col i {
+  padding: 7px;
+  color: #fff;
+}
+.col i:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 940px) {
+  .back-form {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .img-back {
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
+  }
+
+  form {
+    flex: 0.9;
+  }
+}
+@media screen and (max-width: 414px) {
+  .central-form h2 {
+    font-size: 16px;
+  }
+}

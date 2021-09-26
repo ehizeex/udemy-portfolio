@@ -1,0 +1,42 @@
+.scroll-container {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  margin-right: 9px;
+  overflow: hidden;
+  flex-direction: column;
+  margin-top: -45px;
+  z-index: 100;
+  cursor: pointer;
+}
+@media only screen and (min-width: 475px) {
+  .scroll-container {
+    margin-bottom: 10px;
+  }
+}
+.btn-scroll {
+  width: 50px;
+  height: 50px;
+  color: aliceblue;
+  font-size: 24px;
+  background-color: tomato;
+  border-radius: 10px;
+  border: none;
+}
+.btn-scroll i:hover {
+  transform: rotate(360deg);
+  color: aliceblue;
+}
+
+.btn-scroll i {
+  -webkit-animation: mover 0.5s infinite alternate;
+  animation: mover 0.5s infinite alternate;
+}
+@keyframes mover {
+  100% {
+    transform: translateY(-5px);
+  }
+  0% {
+    transform: translateX(0px);
+  }
+}
